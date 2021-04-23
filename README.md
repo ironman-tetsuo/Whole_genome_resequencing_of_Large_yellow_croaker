@@ -44,6 +44,12 @@ admixture --cv=100 -j${thread} ${ped_map_path}/YOUR_BED_FILE.bed ${i} | tee log$
 done
 ```
 
+### Calculation of Identical-by-State score matrix
+For calculation of Identical-by-State (IBS) score matrix, use the following command. From the IBS score matrix, NJ tree can be constructed using MEGA software.
+```
+plink --autosome-num 24 --allow-extra-chr --bfile ${ped_path}/198samples_BiallelicSNP_max-missing-0.90_MAF-0.05 --out All  --cluster --matrix
+```
+
 ### Calculation of Fst
 for caliculation of Fst, use the following command.
 ```
