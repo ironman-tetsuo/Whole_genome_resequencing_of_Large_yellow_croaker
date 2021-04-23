@@ -9,8 +9,9 @@ On this page, I provide the list of datasets and scripts used for the analysis o
 DDBJ DRA database under accession number PRJDB10647  
 
 ### Softwares
-- [BWA](http://bio-bwa.sourceforge.net/)
 - [FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/)
+- [Trimmomatic](http://www.usadellab.org/cms/?page=trimmomatic)
+- [BWA](http://bio-bwa.sourceforge.net/)
 - [Samtools](http://www.htslib.org/)
 - [VCFtools](http://vcftools.sourceforge.net/man_latest.html)
 - [PLINK](https://www.cog-genomics.org/plink/)
