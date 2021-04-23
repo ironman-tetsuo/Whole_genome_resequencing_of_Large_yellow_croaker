@@ -8,6 +8,11 @@ On this page, I provide the list of datasets and scripts used for the analysis o
 - Raw sequence reads of whole-genome resequencing of large yellow croaker  
 DDBJ DRA database under accession number PRJDB10647  
 
+### Softwares
+- BWA  
+[BWA](http://bio-bwa.sourceforge.net/)
+
+
 ### Quality check of FASTQ files
 For checking the quality of FASTQ files, use the following script where we use FastQC.
 - [run_FastQC.sh](./run_FastQC.sh)  
