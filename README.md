@@ -8,6 +8,12 @@ ftp://ftp.ensembl.org/pub/release-100/fasta/larimichthys_crocea/dna/Larimichthys
 - Raw sequence reads of whole-genome resequencing of large yellow croaker  
 DDBJ database under accession number PRJDB10647
 
+### Quality check of FASTQ files
+For checking the quality of FASTQ files, use the following scripts where we use FastQC.
+- [run_FastQC.sh](./run_FastQC.sh)
+
 ### Read trimming
 For trimming the FASTQ raw reads, use the following scripts.
 - [run_trimmomatic.sh](./run_trimmomatic.sh)
+
+### Read mapping to the reference genome
