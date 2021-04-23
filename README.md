@@ -9,8 +9,7 @@ On this page, I provide the list of datasets and scripts used for the analysis o
 DDBJ DRA database under accession number PRJDB10647  
 
 ### Softwares
-- BWA  
-[BWA](http://bio-bwa.sourceforge.net/)
+- [BWA](http://bio-bwa.sourceforge.net/)
 
 
 ### Quality check of FASTQ files
