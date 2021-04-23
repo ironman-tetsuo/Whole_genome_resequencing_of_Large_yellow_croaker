@@ -44,6 +44,12 @@ admixture --cv=100 -j${thread} ${ped_map_path}/YOUR_BED_FILE.bed ${i} | tee log$
 done
 ```
 
+### Calculation of Fst
+for caliculation of Fst, use the following command.
+```
+vcftools --gzvcf YOUR_VCF.vcf.gz --weir-fst-pop ${group1}.txt --weir-fst-pop ${group2}.txt --out Fst_SNP_${group1}_vs_${group2}
+```
+
 ### Drawing geographic maps
 For drawing geographic maps by using open source library, use the following R scripts.
 ```
