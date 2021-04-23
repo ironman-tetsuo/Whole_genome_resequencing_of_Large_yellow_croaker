@@ -53,8 +53,12 @@ vcftools --gzvcf YOUR_VCF.vcf.gz --weir-fst-pop ${group1}.txt --weir-fst-pop ${g
 ### Drawing geographic maps
 For drawing geographic maps by using open source library, use the following R scripts.
 ```
-png("Figures/China_focused_region1.png", width=1000, height=1000)
-map(col="grey80", border = "grey40", fill = TRUE, xlim = c(115, 132), ylim = c(22, 35), mar = rep(0.1, 4))
+#Load libraries
+library(maps)
+library(mapdata)
+#Draw a map
+png("MyMap.png", width=1000, height=1000)
+map(col="grey80", border = "grey40", fill = TRUE, xlim = c(100, 150), ylim = c(20, 40), mar = rep(0.1, 4))
 dev.off()
 ```
 
