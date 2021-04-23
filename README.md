@@ -44,6 +44,13 @@ admixture --cv=100 -j${thread} ${ped_map_path}/YOUR_BED_FILE.bed ${i} | tee log$
 done
 ```
 
+### Drawing geographic maps
+For drawing geographic maps by using open source library, use the following R scripts.
+```
+png("Figures/China_focused_region1.png", width=1000, height=1000)
+map(col="grey80", border = "grey40", fill = TRUE, xlim = c(115, 132), ylim = c(22, 35), mar = rep(0.1, 4))
+dev.off()
+```
 
 
 
