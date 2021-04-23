@@ -4,7 +4,7 @@ On this page, I provide the list of datasets and scripts used for the analysis o
 
 ### Data source
 - Genome sequence of large yellow croaker  
-[ftp.ensembl.org/pub/release-100/fasta/larimichthys_crocea/dna/Larimichthys_crocea.L_crocea_2.0.dna_sm.toplevel.fa.gz](ftp.ensembl.org/pub/release-100/fasta/larimichthys_crocea/dna/Larimichthys_crocea.L_crocea_2.0.dna_sm.toplevel.fa.gz)
+[http://ftp.ensembl.org/pub/release-100/fasta/larimichthys_crocea/dna/](http://ftp.ensembl.org/pub/release-100/fasta/larimichthys_crocea/dna/)
 - Raw sequence reads of whole-genome resequencing of large yellow croaker  
 DDBJ database under accession number PRJDB10647  
 
