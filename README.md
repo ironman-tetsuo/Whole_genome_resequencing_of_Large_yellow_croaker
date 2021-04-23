@@ -16,6 +16,7 @@ DDBJ DRA database under accession number PRJDB10647
 - [VCFtools](http://vcftools.sourceforge.net/man_latest.html)
 - [PLINK](https://www.cog-genomics.org/plink/)
 - [ADMIXTURE](https://dalexander.github.io/admixture/index.html)
+- [SNeP](https://sourceforge.net/projects/snepnetrends/files/binaries/)
 - [R](https://www.r-project.org/)
 - [maps](https://cran.r-project.org/web/packages/maps/index.html)
 - [mapdata](https://cran.r-project.org/web/packages/mapdata/index.html)
@@ -54,6 +55,12 @@ For performing ADMIXTURE analysis, use the following command. In this analysis, 
 for i in `seq 1 15`; do
 admixture --cv=100 -j${thread} ${ped_map_path}/YOUR_BED_FILE.bed ${i} | tee log${i}.out
 done
+```
+
+### Estimation of effective population sizes
+For estimation of effective population sizes, use the following command.
+```
+SNeP1.1 -maxsnp 100 -t 100 -ped YOUR_PED_FILE.ped
 ```
 
 ### Calculation of Identical-by-State score matrix
