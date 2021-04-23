@@ -11,18 +11,23 @@ DDBJ database under accession number PRJDB10647
 <br />
 
 ### Quality check of FASTQ files
-For checking the quality of FASTQ files, use the following scripts where we use FastQC.
+For checking the quality of FASTQ files, use the following script where we use FastQC.
 - [run_FastQC.sh](./run_FastQC.sh)  
 <br />
 
 ### Read trimming
-For trimming the FASTQ raw reads, use the following scripts.
+For trimming the FASTQ raw reads, use the following script.
 - [run_trimmomatic.sh](./run_trimmomatic.sh)  
 <br />
 
 ### Read mapping to the reference genome
-For read mapping, sorting and indexing, use the following scripts.  
+For read mapping, sorting and indexing, use the following script.  
 - [run_mapping.sh](./run_mapping.sh)  
+<br />
+
+### Variant calling
+For variant calling from BAM files, use the following script.  
+- [run_variant-calling.sh](./run_variant-calling.sh)  
 <br />
 
 
