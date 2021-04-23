@@ -8,3 +8,5 @@ ftp://ftp.ensembl.org/pub/release-100/fasta/larimichthys_crocea/dna/Larimichthys
 - Raw sequence reads of whole-genome resequencing of large yellow croaker  
 DDBJ database under accession number PRJDB10647
 
+### Read trimming
+- [サンプルサイト](sample.html)
