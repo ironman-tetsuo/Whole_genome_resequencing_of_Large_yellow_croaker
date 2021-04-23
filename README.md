@@ -61,7 +61,7 @@ png("MyMap.png", width=1000, height=1000)
 map(col="grey80", border = "grey40", fill = TRUE, xlim = c(100, 150), ylim = c(20, 40), mar = rep(0.1, 4))
 dev.off()
 ```
-![MyMap.png](MyMap.png)
+![mymap.png](mymap.png)
 
 
 
