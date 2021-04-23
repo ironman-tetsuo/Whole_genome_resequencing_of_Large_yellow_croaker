@@ -9,4 +9,4 @@ ftp://ftp.ensembl.org/pub/release-100/fasta/larimichthys_crocea/dna/Larimichthys
 DDBJ database under accession number PRJDB10647
 
 ### Read trimming
-- [サンプルサイト](sample.html)
+- [run_trimmomatic.sh](./run_trimmomatic.sh)
