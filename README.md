@@ -12,7 +12,11 @@ For checking the quality of FASTQ files, use the following scripts where we use 
 ### Read trimming
 For trimming the FASTQ raw reads, use the following scripts.
 - [run_trimmomatic.sh](./run_trimmomatic.sh)
+<br />
+<br />
+<br />
+<br />
 ### Read mapping to the reference genome
-For read mapping, sorting and indexing, use the following scripts.
+For read mapping, sorting and indexing, use the following scripts.  
 - [run_mapping.sh](./run_mapping.sh)
 
