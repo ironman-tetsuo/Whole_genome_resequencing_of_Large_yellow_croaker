@@ -25,7 +25,7 @@ For variant calling from BAM files, use the following script.
 - [run_variant-calling.sh](./run_variant-calling.sh)  
 
 ### Generation of PED/MAP file
-For creating a PED/MAP file from VCF file, use the following commands. PED/MAP file is required for PLINK
+For creating a PED/MAP file from VCF file, use the following commands. PED/MAP file is required for PLINK.   
 `plink --double-id --allow-extra-chr --vcf All.vcf.gz --recode --out All`  
 `plink --allow-extra-chr  --file All --make-bed  --out All --double-id`  
 
