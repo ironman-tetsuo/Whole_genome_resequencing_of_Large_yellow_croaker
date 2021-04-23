@@ -30,7 +30,11 @@ For creating a PED/MAP file from VCF file, use the following commands. PED/MAP f
 plink --double-id --allow-extra-chr --vcf All.vcf.gz --recode --out All 
 plink --allow-extra-chr  --file All --make-bed  --out All --double-id  
 ```
-
+### Principal component analysis
+For performing principal component analysis (PCA), use the following command.
+```
+plink --allow-extra-chr --bfile ${ped_path}/All --out All --pca 50
+```
 
 
 
