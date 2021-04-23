@@ -14,4 +14,5 @@ For trimming the FASTQ raw reads, use the following scripts.
 - [run_trimmomatic.sh](./run_trimmomatic.sh)
 ### Read mapping to the reference genome
 For read mapping, sorting and indexing, use the following scripts.
-- [run_mapping.sh]
+- [run_mapping.sh](./run_mapping.sh)
+
