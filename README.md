@@ -10,7 +10,11 @@ DDBJ DRA database under accession number PRJDB10647
 
 ### Softwares
 - [BWA](http://bio-bwa.sourceforge.net/)
-
+- [FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/)
+- [Samtools](http://www.htslib.org/)
+- [VCFtools](http://vcftools.sourceforge.net/man_latest.html)
+- [PLINK](https://www.cog-genomics.org/plink/)
+- [ADMIXTURE](https://dalexander.github.io/admixture/index.html)
 
 ### Quality check of FASTQ files
 For checking the quality of FASTQ files, use the following script where we use FastQC.
