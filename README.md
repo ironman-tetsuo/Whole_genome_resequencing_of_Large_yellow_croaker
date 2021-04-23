@@ -11,7 +11,7 @@ For checking the quality of FASTQ files, use the following scripts where we use 
 - [run_FastQC.sh](./run_FastQC.sh)
 ### Read trimming
 For trimming the FASTQ raw reads, use the following scripts.
-- [run_trimmomatic.sh](./run_trimmomatic.sh)
+- [run_trimmomatic.sh](./run_trimmomatic.sh)  
 <br />
 <br />
 <br />
