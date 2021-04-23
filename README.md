@@ -36,6 +36,14 @@ For performing principal component analysis (PCA), use the following command.
 plink --allow-extra-chr --bfile ${ped_path}/All --out All --pca 50
 ```
 
+### ADMIXTURE analysis
+For performing ADMIXTURE analysis, use the following command. In this analysis, K is set to a value between 1 and 15.
+```
+for i in `seq 1 15`; do
+admixture --cv=100 -j${thread} ${ped_map_path}/YOUR_BED_FILE.bed ${i} | tee log${i}.out
+done
+```
+
 
 
 
