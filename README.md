@@ -6,7 +6,7 @@ On this page, I provide the list of datasets and scripts used for the analysis o
 - Genome sequence of large yellow croaker  
 [http://ftp.ensembl.org/pub/release-100/fasta/larimichthys_crocea/dna/](http://ftp.ensembl.org/pub/release-100/fasta/larimichthys_crocea/dna/)
 - Raw sequence reads of whole-genome resequencing of large yellow croaker  
-DDBJ database under accession number PRJDB10647  
+DDBJ DRA database under accession number PRJDB10647  
 
 ### Quality check of FASTQ files
 For checking the quality of FASTQ files, use the following script where we use FastQC.
