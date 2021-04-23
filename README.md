@@ -8,7 +8,7 @@ On this page, I provide the list of datasets and scripts used for the analysis o
 - Raw sequence reads of whole-genome resequencing of large yellow croaker  
 DDBJ DRA database under accession number PRJDB10647  
 
-### Softwares
+### Softwares and libraries
 - [FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/)
 - [Trimmomatic](http://www.usadellab.org/cms/?page=trimmomatic)
 - [BWA](http://bio-bwa.sourceforge.net/)
@@ -16,6 +16,9 @@ DDBJ DRA database under accession number PRJDB10647
 - [VCFtools](http://vcftools.sourceforge.net/man_latest.html)
 - [PLINK](https://www.cog-genomics.org/plink/)
 - [ADMIXTURE](https://dalexander.github.io/admixture/index.html)
+- [R](https://www.r-project.org/)
+- [maps](https://cran.r-project.org/web/packages/maps/index.html)
+- [mapdata](https://cran.r-project.org/web/packages/mapdata/index.html)
 
 ### Quality check of FASTQ files
 For checking the quality of FASTQ files, use the following script where we use FastQC.
