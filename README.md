@@ -30,5 +30,16 @@ For variant calling from BAM files, use the following script.
 - [run_variant-calling.sh](./run_variant-calling.sh)  
 <br />
 
+### Generation of ped/map
+`plink --double-id --allow-extra-chr --vcf All.vcf.gz --recode --out All`  
+`plink --allow-extra-chr  --file All --make-bed  --out All --double-id`  
+<br />
+
+
+
+
+
+
+
 
 
