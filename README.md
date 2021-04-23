@@ -9,4 +9,5 @@ ftp://ftp.ensembl.org/pub/release-100/fasta/larimichthys_crocea/dna/Larimichthys
 DDBJ database under accession number PRJDB10647
 
 ### Read trimming
+For trimming the FASTQ raw reads, use the following scripts.
 - [run_trimmomatic.sh](./run_trimmomatic.sh)
